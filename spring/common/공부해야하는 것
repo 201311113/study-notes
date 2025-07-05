@@ -1,0 +1,13 @@
+## studing notion page
+
+### Bean
+- 글 예쁘게좀 정리할 것
+- scan하는 어노테이션도 정리
+- property 어노테이션도 정리
+- XML 수준에서의 빈등록을 boot가아닌 그냥 spring이 어떻게 해주는지 파악해보자
+- 아직 공식문서로 동작이 이렇게 되는지 맞는지는 확인해야한다
+- 어노테이션은 코드 구현부 따라가면 메타데이터 설명에대해 알지만 어떻게 실제 메타데이터를 읽어서 동작을 하는지 따라가는 방법은 알아봐야겠다.
+component, bean, configuration 어노테이션으로 빈 등록되는 과정을 알아봤고 이를 확인해줄 링크 아래에 첨부
+빈 등록과정 공식문서 링크
+- https://docs.spring.io/spring-framework/reference/core/beans/classpath-scanning.html?utm_source=chatgpt.com
+- https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html?utm_source=chatgpt.com
