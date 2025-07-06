@@ -22,3 +22,5 @@ component, bean, configuration 어노테이션으로 빈 등록되는 과정을 
 
 - https://docs.spring.io/spring-framework/reference/core/beans/classpath-scanning.html?utm_source=chatgpt.com
 - https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html?utm_source=chatgpt.com
+
+## 
