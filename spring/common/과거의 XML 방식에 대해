@@ -1,0 +1,18 @@
+## 과거의 XML 방식에 대해
+### 개요
+
+xml 방식은 html같은 태그를 사용하고 nested되는 문법으로 빈을 정의하고 이것을 읽어서 실제 bean을 등록한다.
+
+javaConfig 방식과는 아예 메커니즘이 다르다.
+
+### 동작 방식
+
+1. xml형식으로 빈을 정의함
+2. xml 파일을 `XmlBeanDefinitionReader`가 파싱하여 `BeanDefinitionRegistry`에 빈을 정의를 등록한다.
+3. 그 후 `BeanDefinitionRegistry` 에 있는 정의를 읽어 빈을 등록한다.
+
+### 결론
+
+xml 방식과 javaConfig 방식 두가지의 bean definition 등록 방법이 존재
+
+bean 등록 후에 bean을 생성하는 것은 동작이 둘다 같음
